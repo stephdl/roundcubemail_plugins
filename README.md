@@ -1,1 +1,2 @@
-# roundcubemail_plugins
+roundcube-1.0rc
+=========
