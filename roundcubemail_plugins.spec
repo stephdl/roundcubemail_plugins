@@ -1,8 +1,8 @@
 Summary: IMAP Client, roundcube installed in /opt/roundcube
 %define name roundcubemail_plugins
 Name: %{name}
-%define version 1.0
-%define release 4
+%define version 1.1
+%define release 1
 Version: %{version}
 Release: %{release}%{?dist}
 License: GPL
@@ -12,7 +12,7 @@ Source: %{name}-%{version}.tar.gz
 BuildArchitectures: noarch
 BuildRoot: /var/tmp/%{name}-%{version}
 Requires: e-smith-release >= 9.0
-Requires: roundcubemail >= 1.0
+Requires: roundcubemail >= 1.1.0
 Buildrequires: e-smith-devtools
 AutoReqProv: no
 obsoletes: roundcube_plugins
@@ -21,6 +21,9 @@ http://www.roundcube.net/
 Roundcube_plugins provide a commonway to install and update plugins to roundcube
 
 %changelog
+* Sun Feb 22 2015 stephane de labrusse <stephdl@de-labrusse.fr> 1.1-1
+- Require roundcube > 1.1.0
+
 * Wed Feb 11 2015 stephane de labrusse <stephdl@de-labrusse.fr> 1.0-4
 - First release to roundcubemail_plugins
 
