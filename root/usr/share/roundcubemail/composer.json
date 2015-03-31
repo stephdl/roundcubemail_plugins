@@ -15,7 +15,6 @@
         "johndoh/contextmenu": "dev-master",
         "johndoh/globaladdressbook": "dev-release-1.0",
         "johndoh/sieverules": "dev-master",
-        "roundcube/carddav": "dev-master"
     },
     "minimum-stability": "dev"
 }
