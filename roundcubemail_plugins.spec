@@ -2,7 +2,7 @@ Summary: IMAP Client, roundcube installed in /opt/roundcube
 %define name roundcubemail_plugins
 Name: %{name}
 %define version 1.1
-%define release 1
+%define release 2
 Version: %{version}
 Release: %{release}%{?dist}
 License: GPL
@@ -21,6 +21,9 @@ http://www.roundcube.net/
 Roundcube_plugins provide a commonway to install and update plugins to roundcube
 
 %changelog
+* Thu Apr 16 2015 stephane de labrusse <stephdl@de-labrusse.fr> 1.1-2
+- Carddav is a hugly plugin, go out
+
 * Sun Feb 22 2015 stephane de labrusse <stephdl@de-labrusse.fr> 1.1-1
 - Require roundcube > 1.1.0
 
